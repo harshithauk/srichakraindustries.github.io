@@ -1,1 +1,1 @@
-# srichakraindustries.github.io
+# srichakraindustries.github.io/index.html
