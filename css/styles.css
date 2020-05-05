@@ -1,0 +1,172 @@
+html{
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* navigation */
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navbar-brand{
+  padding-left: 50px;
+}
+
+.round{
+  height: 100px;
+  width: 100px;
+  box-shadow: 2px 2px 200px 1px #000;
+  border-radius: 50%;
+}
+.container-fluid{
+  padding: 3% 10%;
+}
+.h4{
+  color: #000;
+  line-height: 2rem;
+
+}
+.p{
+  color: grey;
+
+}
+/* cards */
+.main-card{
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 40px;
+}
+.card{
+  padding:10px 20px;
+  }
+.img{
+  margin-top: -40%;
+  height: 300px;
+  width: 450px;
+}
+.hcard{
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+
+}
+
+.hcard:hover {
+  background:#e74c3c;
+  color: #fff;
+  transform: scale(1.1);
+
+}
+.btn:hover{
+  background:#fff;
+  color: #000;
+}
+.pcard:hover{
+  transform: scale(1.1);
+}
+.kriston{
+  position: relative;
+    font-weight: bold;
+    line-height: 2rem;
+  padding-left: 80px;
+  font-family: Monsterat-black;
+}
+.footer{
+  text-align: left;
+  margin-top: 50px;
+  padding-left: 10px;
+  text-indent: 10px;
+}
+.line {
+  line-height: 40px;
+  font-weight: 400;
+}
+.size{
+  font-size:17px;
+}
+.gap{
+  padding-right: 40px;
+}
+#prod{
+  padding: 100px;
+}
+
+.prod-colmn{
+  padding: 2% 3%;
+}
+
+.jumbotron{
+  margin-top: 400px;
+  padding: 2rem;
+  background-color: #800000;
+  /* background-color:  linear-gradient(to-right,#800000 73%, #cc3300 100%); */
+  background-size: cover;
+  color: #fff;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-youtube,
+.fa-whatsapp{
+    color: #fff;
+}
+.kaushik{
+  position: relative;
+    font-weight: bold;
+    line-height: 2rem;
+  padding-left: 80px;
+  font-family: Monsterat-black;
+  color:#800000;
+}
+
+/* Page KRISTON */
+.full{
+  height:80vh;
+  background-size: cover;
+  background-position: center;
+  color:#000;
+}
+
+.box{
+
+  position: relative;
+  height: 120%;
+  width: 75%;
+  transform: translate(15%,20%);
+  display: flex ;
+  background: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: stretch;
+  text-align: center;
+  color: #000;
+}
+
+.text{
+  align-items: flex-start;
+}
+
+/* Page About */
+#about{
+  padding: 5% 9%;
+}
+
+.content1{
+  background-color: #000;
+  color: #fff;
+  width:110%;
+  background-size: contain;
+  z-index: -1;
+}
+
+.shadow{
+  box-shadow: 10px 15px #888888;
+}
+.center1{
+  text-align: center;
+}
+.fax{
+ margin-left: 35px;
+}
