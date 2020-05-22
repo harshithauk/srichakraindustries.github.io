@@ -2,6 +2,27 @@ html{
   margin: 0;
   font-size: 1rem;
 }
+@media (max-width:500px) {
+  .landing{
+    height: 900px;
+  }
+
+}
+@media (max-width:500px) {
+  .lead{
+    font-size:40px;
+    line-height: 3.5rem;
+    margin:5% 5%;
+  }
+}
+
+@media (max-width:500px) {
+  .display-4,.display-8,.display-6{
+    font-size: 55px;
+    line-height: 3.5rem;
+    margin:5% 5%;
+  }
+}
 
 /* navigation */
 .nav-item {
