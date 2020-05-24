@@ -192,12 +192,10 @@ html{
 
 /* Media queries for whole text and main image */
 
-@media only screen and (max-width:700px) {
-  .land{
-    height: 700px;
-  }
+/* @media only screen and (max-width:700px) {
+ 
+} */
 
-}
 @media only screen and (max-width:700px) {
   .lead{
     font-size:20px;
