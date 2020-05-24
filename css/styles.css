@@ -191,11 +191,9 @@ html{
 }
 
 /* Media queries for whole text and main image */
-.landing{
-  color:black;
-}
+
 @media only screen and (max-width:700px) {
-  .landing{
+  .land{
     height: 700px;
   }
 
