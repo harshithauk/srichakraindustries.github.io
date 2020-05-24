@@ -2,27 +2,7 @@ html{
   margin: 0;
   font-size: 1rem;
 }
-@media (max-width:700px) {
-  .landing{
-    height: 900px;
-  }
 
-}
-@media (max-width:700px) {
-  .lead{
-    font-size:40px;
-    line-height: 3.5rem;
-    margin:5% 5%;
-  }
-}
-
-@media (max-width:700px) {
-  .display-4,.display-8,.display-6{
-    font-size: 55px;
-    line-height: 3.5rem;
-    margin:5% 5%;
-  }
-}
 
 /* navigation */
 .nav-item {
@@ -48,10 +28,7 @@ html{
   line-height: 2rem;
 
 }
-.p{
-  color: grey;
 
-}
 /* cards */
 .main-card{
   padding-left: 200px;
@@ -60,11 +37,31 @@ html{
 }
 .card{
   padding:10px 20px;
+  border-radius: 10%;
   }
+
+ @media only screen and (max-width:500px) {
+    .card{
+      width: 250px;
+      padding: 20px 1px;
+      margin-bottom: 30px;
+      padding-top: 30px;
+
+    }
+  }
+
 .img{
-  margin-top: -40%;
-  height: 300px;
+  margin-top: -45%;
+  height: 352px;
   width: 450px;
+}
+
+@media only screen and (max-width:500px) {
+  .img{
+    padding-top:1%;
+    height:220px;
+    width:500px;
+  }
 }
 .hcard{
   transition: all 0.3s ease-in;
@@ -93,15 +90,15 @@ html{
   padding-left: 80px;
   font-family: Monsterat-black;
 }
+
 .footer{
   text-align: left;
-  margin-top: 50px;
-  padding-left: 10px;
-  text-indent: 10px;
+  background-image: linear-gradient(to right, rgb(97, 57, 54) 60%, rgb(97, 57, 54) 10%, rgb(165, 30, 21) 100%);
 }
 .line {
   line-height: 40px;
   font-weight: 400;
+  color: white;
 }
 .size{
   font-size:17px;
@@ -132,6 +129,7 @@ html{
 .fa-whatsapp{
     color: #fff;
 }
+
 .kaushik{
   position: relative;
     font-weight: bold;
@@ -190,4 +188,30 @@ html{
 }
 .fax{
  margin-left: 35px;
+}
+
+/* Media queries for whole text and main image */
+
+@media only screen and (max-width:700px) {
+  .landing{
+    height: 800px;
+  }
+
+}
+@media only screen and (max-width:700px) {
+  .lead{
+    font-size:20px;
+    line-height: 2.0rem;
+  }
+}
+
+@media only screen and (max-width:700px) {
+  .display-4,.display-8,.display-6{
+    font-size: 30px;
+    line-height: 2.1rem;
+  }
+  .display-5{
+    font-size:25px;
+    line-height: 2.1rem;
+  }
 }
