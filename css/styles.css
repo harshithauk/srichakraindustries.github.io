@@ -194,7 +194,8 @@ html{
 
 @media only screen and (max-width:700px) {
   .landing{
-    height: 600px;
+    height: 400px;
+    width:400px;
   }
 
 }
