@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-
     <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name="viewport"/>
     <title>Contacts</title>
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -62,6 +62,7 @@
            </nav>
         </div>
     </section>
+    <!-- css -->
     <style type="text/css">
 	.form {
 		margin: 0 auto;
@@ -70,7 +71,7 @@
 
 	.form label{
 		display: inline-block;
-		text-align: right;
+		text-align: left;
 		float: left;
 	}
 
@@ -87,35 +88,42 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;}
+  cursor: pointer;
+}
+
+  @media only screen and (max-width:400px) {
+    iframe.map-contact{
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 300px;
+    }
+  }
 </style>
+<!-- css ends -->
 
      <!-- about the company -->
     <section id="Contact">
-            <div class="container" style="margin-top: 2%;z-index: 1;padding-right: 110px;padding-left: 110px;">
-              <br />
-      <br />
-      <br />
-      <br />
+            <div class="container-fluid">
       <div class="content container-fluid" >
       		<h4 class="display-4" ><strong><center>Contact Us</center></strong></h4>
-                <br />
-      			<br />
-   <div class="row bg_cont">
+          <br />
+      		<br />
+ <div class="row bg_cont">
+   <div class="col-lg-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.619399459245!2d77.526046!3d12.945926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ec4040a594e9c33!2sSri%20Chakra%20Industries!5e0!3m2!1sen!2sin!4v1582328244330!5m2!1sen!2sin"
+            class="map-contact"  width="480px" height="650px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <div class="row col-lg-6" style="padding-top: 20px;">
      <div class="col-lg-6">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.619399459245!2d77.526046!3d12.945926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ec4040a594e9c33!2sSri%20Chakra%20Industries!5e0!3m2!1sen!2sin!4v1582328244330!5m2!1sen!2sin" width="600" height="650" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <p class="lead"><b>Address:</b><br />13/14, Mysore road, Azeez Sait Industrial Estate, Nayanda Halli, Bengaluru, Karnataka 560039</p>
      </div>
-     <div class="col-md-6 " style="background-color: white;">
-       <div class="row" style="padding-top: 20px;">
-<div class="col-lg-6">
-        <p><span style="color: black">Address:</span>&nbsp 13/14, Mysore road, Azeez Sait Industrial Estate, Nayanda Halli, Bengaluru, Karnataka 560039</p>
-</div>
-<div class="col-lg-6">
-        <p><span style="font-weight: 800;color: black">Telephone number:</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span style="margin-left: -10%;margin-top: 20px;" class="span">080 2339 2877</p>
+     <div class="col-lg-6 lead">
+        <p class="lead"><span style="font-weight: 800;color: black">Telephone number:</span><br />
+          <span style="margin-left: -10%;margin-top: 20px;" class="span">&ensp;080 2339 2877</p>
         <p ><span style="font-weight: 800;color: black">Email address:&nbsp</span> &nbsp&nbsp<span style="margin-left: -10%;margin-top: 20px;" class="span">srichakrablr2020@gmail.com</p>
-</div>
-<form style="margin-top: 5%;" class="alg_form" >
-  <div div class="col-lg-6">
+    </div>
+<form  class="alg_form" >
+  <div  class="col-lg-6 lead">
     <label><strong>Name:</strong></label>
     <input type="text" name="name" placeholder="Your name..." class="form_box">
     <br />
@@ -129,74 +137,59 @@
     <br />
     <br />
     <label><strong>Leave Your Message:</strong></label>
-    <textarea name="message" placeholder="message" class="form_box x" style="width:500"></textarea>
-    <button class="contact_us button1" style="margin-top: 5%;">SUBMIT</button>
+    <textarea name="message" placeholder="message" class="form_box x" style="width:230px"></textarea>
+    <a href="#" class="btn btn-danger contact_us button1">SUBMIT</a>
   </div>
-
 </form>
 </div>
-           </div>
-
+ </div>
    </div>
  </div>
- </div>
- <div style="margin-top:100px"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- footer section -->
+
 <section class="footer" id="bottom">
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container-fluid row padding">
-      <div class="col-lg-5 gap">
-        <ul class="lead " style="list-style-type:none;">
+    <div class="container-fluid row ">
+      <div class="col-lg-5 gap"style="color:white;">
          <h4 class="display-6"><b>SRI CHAKRA INDUSTRIES</b></h4>
-          <li > <b class="line" >About Us</b><br /></li>
-          <li style="align:left;" >Sri Chakra Industries is known as the foremost</li>
-          <li style="align:left;" >manufacturer of a high-quality range of Plain Base</li>
-          <li style="align:left;" > Pressure Cooker,Cookware Sets, Offered Plain Base</li>
-          <li style="align:left;" > Pressure Cooker, Cookware Sets, are well-known for</li>
-          <li style="align:left;" > the features like longworking life, high functionality,</li>
-          <li style="align:left;" > and low maintenance.<br /><br /></li>
-          <li><b class="line">Our Address</b><br /></li>
-          <li style="align:left;" >13/14, Azeez Sait Industrial Estate, Nayandhalli</li>
-          <li style="align:left;" > Mysore Road,Bangalore,Karnataka,India,560039</li>
-        </ul>
+         <p class="lead "><b class="line">About Us</b><br /><br />
+           Sri Chakra Industries is known as the foremost manufacturer of a high-quality range of Plain Base Pressure Cooker,
+            Cookware Sets, Offered Plain Base Pressure Cooker, Cookware Sets, are well-known for the features like long
+             working life, high functionality, and low maintenance.
+                   <br /><br />
+             <b class="line">Our Address</b><br />
+             13/14, Azeez Sait Industrial Estate, Nayandhalli Mysore Road,
+             Bangalore,Karnataka,India,560039
+         </p>
       </div>
+
       <div class="col-lg-3 gap">
-        <ul class="line lead" style="list-style-type:none;">
-          <div><h4 class="display-6"><b>CATEGORIES</b></h4></div>
-             <li><a href="#" style="color:#FFFFFF"> Products</a></li>
-             <li><a href="#" style="color:#FFFFFF">Our team</a></li>
-             <li><a href="contactus.html" style="color:#FFFFFF">Contact Us</a></li>
-             <li><a href="#" style="color:#FFFFFF">Catalogue</a></li>
-             <li><a href="#" style="color:#FFFFFF">Orders</a></li>
+        <ul class="line" style="list-style-type:none;color:#FFFFFF;">
+          <div><h4 class="display-5"><b>CATEGORIES</b></h4></div>
+          <div class="lead">
+            <li><a href="#" style="color:#FFFFFF"> Products</a></li>
+            <li><a href="#" style="color:#FFFFFF">Our team</a></li>
+            <li><a href="contactus.html" style="color:#FFFFFF">Contact Us</a></li>
+            <li><a href="#" style="color:#FFFFFF">Catalogue</a></li>
+            <li><a href="#" style="color:#FFFFFF">Orders</a></li>
+          </div>
+
 
            </ul>
       </div>
 
       <div class="col-lg-3  gap">
-        <ul class="line lead" style="list-style-type:none;">
-          <h4 class="display-6"><b>CONTACT</b></h4>
-          <li>080 2339 2877</li>
-          <li>srichakrablr2020@gmail.com</li>
-          <li><a href="#"><i class="fab fa-facebook" aria-hidden="true" ></i></a>&ensp;&ensp;
-          <a href="#"><i class="fab fa-linkedin" aria-hidden="true" ></i></a>&ensp;&ensp;
-          <a href=""><i class="fab fa-whatsapp" aria-hidden="true"></i></a>&ensp;&ensp;
-          <a href="#"><i class="fab fa-youtube" aria-hidden="true" ></i></a></li>
-        </ul>
+          <ul class="line" style="list-style-type:none;">
+            <h4 class="display-5"><b>CONTACT</b></h4>
+            <li class="lead">080 2339 2877</li>
+            <li class="lead">srichakrablr2020@gmail.com</li>
+            <li><a href="#"><i class="fab fa-facebook" aria-hidden="true" ></i></a>&ensp;&ensp;
+            <a href="#"><i class="fab fa-linkedin" aria-hidden="true" ></i></a>&ensp;&ensp;
+            <a href=""><i class="fab fa-whatsapp" aria-hidden="true"></i></a>&ensp;&ensp;
+            <a href="#"><i class="fab fa-youtube" aria-hidden="true" ></i></a></li>
+          </ul>
+        </p>
       </div>
     </div>
   </div>
