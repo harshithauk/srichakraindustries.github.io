@@ -31,7 +31,7 @@ html{
 /*  landing image */
 @media only screen and (max-width:400px){
   img.resposive{
-    height:280px;
+    height:640px;
   }
 } 
 /* cards */
@@ -55,14 +55,14 @@ html{
     }
   }
 
-.img{
+.imgc{
   margin-top: -45%;
   height: 352px;
   width: 450px;
 }
 
 @media only screen and (max-width:500px) {
-  .img{
+  .imgc{
     padding-top:1%;
     height:220px;
     width:500px;
