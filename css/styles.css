@@ -31,7 +31,7 @@ html{
 /*  landing image */
 @media only screen and (max-width:400px){
   img.resposive{
-    height:350px;
+    height:280px;
   }
 } 
 /* cards */
