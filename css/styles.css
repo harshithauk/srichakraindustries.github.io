@@ -28,7 +28,12 @@ html{
   line-height: 2rem;
 
 }
-
+/*  landing image */
+@media only screen and (max-width:400px){
+  img.resposive{
+    height:350px;
+  }
+} 
 /* cards */
 .main-card{
   padding-left: 200px;
@@ -192,9 +197,7 @@ html{
 
 /* Media queries for whole text and main image */
 
-/* @media only screen and (max-width:700px) {
- 
-} */
+
 
 @media only screen and (max-width:700px) {
   .lead{
