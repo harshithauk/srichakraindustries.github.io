@@ -187,7 +187,7 @@ html{
 
   }
 
-  .rowx{
+  .row{
 
     padding-bottom: 1600px;
 
@@ -203,26 +203,18 @@ html{
 
   .card2{
 
-    padding-top: 2400px;
+    padding-top: 2000px;
 
   }
 
 .foot{
-
-  padding-bottom: 1500px;
-
-  font-size: 0.01px;
-
-  text-align: left;
-
+  padding-bottom:200px;
 }
 .prod-colmn{
   align-items: center;
 }
 
 }
-
-
 /* Page About */
 
 #about{
@@ -329,10 +321,7 @@ html{
   .cardsrichakra{
     padding-top: 1900px;
   }
-  .card shadow-lg p-3 mb-5 pcard{
-    height:12rem;
-    width:12rem;
-  }
+  
 
 
 }
