@@ -49,7 +49,7 @@ html{
 
 
  @media only screen and (max-width:500px) {
-    .card{
+    .cardx{
       width: 250px;
       padding: 20px 1px;
       margin-bottom: 30px;
