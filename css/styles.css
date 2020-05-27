@@ -186,12 +186,11 @@ html{
   position: relative;
 }
 @media only screen and (max-width:700px){
-
   .alg1{
-    transform: translate(-105%,1%);
+    transform: translate(-75%,1%);
   }
   .alg2{
-    transform: translate(-95%,100%);
+    transform: translate(-75%,100%);
   }
 
   .box{
@@ -218,6 +217,9 @@ html{
 
 
 }
+
+
+
 /* Page About */
 
 #about{
@@ -324,7 +326,10 @@ html{
   .cardsrichakra{
     padding-top: 1900px;
   }
-  
+  card.pcard{
+    height:12rem;
+    width:12rem;
+  }
 
 
 }
