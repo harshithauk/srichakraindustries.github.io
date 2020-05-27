@@ -179,6 +179,49 @@ html{
 .text{
   align-items: flex-start;
 }
+@media only screen and (max-width:700px){
+
+  .box{
+
+    padding-top:1950px;
+
+  }
+
+  .row{
+
+    padding-bottom: 1600px;
+
+  }
+
+  .images{
+
+    height: 125px;
+
+    width:250px;
+
+  }
+
+  .card2{
+
+    padding-top: 2400px;
+
+  }
+
+.foot{
+
+  padding-bottom: 1500px;
+
+  font-size: 0.01px;
+
+  text-align: left;
+
+}
+.prod-colmn{
+  align-items: center;
+}
+
+}
+
 
 /* Page About */
 
