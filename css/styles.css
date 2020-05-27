@@ -286,9 +286,13 @@ html{
 
 @media only screen and (max-width:400px) {
   img.abt-img{
-    width: 400px;
+        width: 330px;
     padding-top: 10%;
+    padding-right: 2px;
 
+  }
+  .bgblack{
+    width: 330px;
   }
 }
 
