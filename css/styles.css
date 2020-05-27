@@ -179,40 +179,43 @@ html{
 .text{
   align-items: flex-start;
 }
+.alg1{
+  position: relative;
+}
+.alg2{
+  position: relative;
+}
 @media only screen and (max-width:700px){
 
+  .alg1{
+    transform: translate(-75%,1%);
+  }
+  .alg2{
+    transform: translate(-75%,100%);
+  }
+
   .box{
-
-    padding-top:1950px;
-
+    padding-top:1850px;
+    transform: translate(15%,28%);
   }
-
-  .row{
-
-    padding-bottom: 1600px;
-
+  .rowx{
+    padding-bottom: 1400px;
   }
-
   .images{
-
     height: 125px;
-
     width:250px;
-
   }
-
   .card2{
-
-    padding-top: 2000px;
-
+    padding-top: 2400px;
   }
 
-.foot{
-  padding-bottom:200px;
-}
 .prod-colmn{
   align-items: center;
-}
+  }
+  .sricard{
+    align:center;
+  }
+
 
 }
 /* Page About */
